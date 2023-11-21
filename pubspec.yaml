@@ -1,0 +1,68 @@
+name: ceertify2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  smooth_page_indicator: ^1.0.0+2
+  qr_code_scanner: ^1.0.1
+  flutter_barcode_scanner: ^2.0.0
+  url_launcher: ^6.2.1
+  flutter_qr_bar_scanner: ^3.0.2
+  webview_flutter: ^4.4.2
+  open_url: ^2.0.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Overpass
+      fonts: 
+        - asset: assets/fonts/OverpassBold.ttf
+          weight: 700
+        - asset: assets/fonts/OverpassRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OverpassRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OverpassSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/OverpassLight.ttf
+          weight: 300
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanBlack.ttf
+          weight: 900
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
